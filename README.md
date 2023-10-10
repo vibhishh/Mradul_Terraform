@@ -1,4 +1,4 @@
-            <h2> Terraform AWS Infrastructure Setup </h2>
+<h2> Terraform AWS Infrastructure Setup </h2>
 This repository contains Terraform configurations to provision the following AWS resources:
 
 
@@ -6,8 +6,7 @@ This repository contains Terraform configurations to provision the following AWS
 <h5>Nginx Web Server:</h5> Installed on EC2 instances to serve web content. 
 <h5>S3 Bucket: </h5>Amazon Simple Storage Service for storing files.
 
-
-              <h3>Prerequisites</h3>
+<h3>Prerequisites</h3>
 
 Before you begin, ensure you have the following prerequisites:
 
