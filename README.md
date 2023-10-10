@@ -1,4 +1,4 @@
-Terraform AWS Infrastructure Setup
+<h2> Terraform AWS Infrastructure Setup </h2>
 This repository contains Terraform configurations to provision the following AWS resources:
 
 EC2 Instances: Virtual machines running in AWS.
