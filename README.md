@@ -11,5 +11,6 @@ This repository contains Terraform configurations to provision the following AWS
 \
 Before you begin, ensure you have the following prerequisites:
 \
-<h5>Terraform:</h5> Install Terraform by following the [official installation guide](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli) \
+<h5>Terraform:</h5> Install Terraform by following the (official installation guide
+)[https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli] \
 <h5>AWS Credentials:</h5> Configure AWS credentials with appropriate permissions. You can set up AWS CLI credentials using aws configure.
