@@ -14,4 +14,12 @@ Before you begin, ensure you have the following prerequisites:
 https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 <h5>AWS Credentials:</h5> Configure AWS credentials with appropriate permissions. You can set up AWS CLI credentials using aws configure.
 
+<h4>Setup IAM user with Access Keys</h4>
 
+<h4>Install awscli </h4>
+
+<h4>Sudo aws configure</h4>
+
+<h3>terraform init</h3>
+
+<h3>terraform plan</h3>
