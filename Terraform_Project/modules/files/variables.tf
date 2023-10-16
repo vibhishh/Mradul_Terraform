@@ -33,7 +33,7 @@ variable "table_name" {
 
 #These variables are for RDS
 
-variable "rds_db_admin" {
+*/variable "rds_db_admin" {
 }
 
 variable "rds_db_password" {
@@ -55,7 +55,7 @@ variable "instance_class" {
 }
 
 variable "db_engine" {
-}
+}/*
 
 #ENV variable
 
