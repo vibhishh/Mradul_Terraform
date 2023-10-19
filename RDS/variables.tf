@@ -1,4 +1,4 @@
-variable "rds_db_admin" {
+/* variable "rds_db_admin" {
 }
 
 variable "rds_db_password" {
@@ -21,3 +21,4 @@ variable "instance_class" {
 
 variable "db_engine" {
 }
+*/
