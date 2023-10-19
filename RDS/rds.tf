@@ -1,14 +1,17 @@
-module "rds" {
-  source            = "./modules/rds"
-  subnets           = aws_subnet.private_subnets
-  vpc_id            = aws_vpc.main.id
-  from_sgs          = [aws_security_group.application_tier]
-  allocated_storage = var.allocated_storage
-  engine_version    = var.engine_version
-  multi_az          = false
-  db_name           = var.db_name
-  db_username       = var.rds_db_admin
-  db_password       = var.rds_db_password
-  instance_class    = var.instance_class
-  engine            = var.db_engine
+# Create an RDS instance
+resource "aws_db_instance" "example" {
+  allocated_storage    = 20
+  storage_type         = "gp2"
+  engine               = "mysql"
+  engine_version       = "5.7"
+  instance_class       = "db.t2.micro"
+  name                 = "mraduldb"
+  username             = "admin"
+  password             = "password"
+  parameter_group_name = "default.mysql5.7"
+  skip_final_snapshot  = true
+
+  tags = {
+    Name = "mradul-rds"
+  }
 }
