@@ -5,7 +5,7 @@ module "dev-demo" {
   instance_type = "t2.micro"
   ami_id = "ami-053b0d53c279acc90" #ubuntu
   instance_name = "demo_instance"
-  bucket_name = "demo_bucket"
+  bucket_name = "vibhish_bucket1"
   table_name = "demo_table"
 }
 
@@ -16,7 +16,7 @@ module "qr-demo" {
   instance_type = "t2.small"
   ami_id = "ami-041feb57c611358bd" #amazon-linux
   instance_name = "demo_instance"
-  bucket_name = "demo_bucket"
+  bucket_name = "vibhish_bucket2"
   table_name = "demo_table"
 }
 
@@ -27,6 +27,6 @@ module "prd-demo" {
   instance_type = "t2.medium"
   ami_id = "ami-026ebd4cfe2c043b2" #redhat
   instance_name = "demo_instance"
-  bucket_name = "demo_bucket"
+  bucket_name = "vibhish_bucket3"
   table_name = "demo_table"
 }
