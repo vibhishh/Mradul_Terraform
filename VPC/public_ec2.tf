@@ -9,9 +9,9 @@ resource "aws_instance" "public" {
     delete_on_termination = true
     tags = {
       Name = "ec2-ebs-volume"
-    }}
+    }
+  }
   tags = {
     Name = "My-Pub-EC2"
   }
 }
-
