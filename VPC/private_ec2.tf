@@ -1,4 +1,4 @@
-resource "aws_instance" "private" {
+resource "aws_instance" "public" {
   subnet_id = aws_subnet.private-subnet.id
   vpc_security_group_ids = [aws_security_group.sg.id]
   ami = "ami-0360c520857e3138f"
@@ -9,7 +9,8 @@ resource "aws_instance" "private" {
     delete_on_termination = true
     tags = {
       Name = "ec2-ebs-volume"
-    }}
+    }
+  }
   tags = {
     Name = "My-Pvt-EC2"
   }
